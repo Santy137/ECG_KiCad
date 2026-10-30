@@ -8,6 +8,9 @@
 *~
 *.lck
 ~*
+# KiCad history / auto-save folders
+.history/
+**/ .history/
 
 _autosave-*
 *.tmp
