@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "38972345-eab7-4b0d-8f65-514c81ebef4c")
+		(uuid "cbc57375-0209-4e5b-9a79-80998d3bec9f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "47ea60be-92c7-4726-bf89-35667605ec04")
+		(uuid "035c33d7-decb-4d70-9d20-5b18925b3de6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00c14c5e-361c-4f16-8a57-61ec8e7dab71")
+		(uuid "462c985b-b598-4f38-9008-32879b9d2e6a")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4daf9286-2100-46e7-9b96-883fcca4979c")
+		(uuid "00f09556-0b55-48ef-8e45-324c13c0a5e8")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,24 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "76f2d6a5-b1ea-4436-b769-7f435fc0ae82")
+		(uuid "b989217d-3c76-43f3-8cf0-82e82f12a551")
+	)
+	(fp_rect
+		(start 9.5 -5)
+		(end 12.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8c7c238d-a0b7-441e-8759-863cb254cf42")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6b21d55e-c94a-4e89-8023-c1a391d8adda")
+		(uuid "b60dd0c9-4148-4de7-8056-19f0a404aade")
 		(effects
 			(font
 				(size 1 1)

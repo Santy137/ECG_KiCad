@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ECG_4810_Footprints") (type "KiCad") (uri "${KIPRJMOD}/ECG_4810_Footprints.pretty") (options "") (descr ""))
+)
