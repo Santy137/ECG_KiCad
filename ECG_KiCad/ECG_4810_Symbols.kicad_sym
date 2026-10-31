@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECG_4810_Footprints:INA126P"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66,11 +66,11 @@
 				(start -8.89 11.43)
 				(end 8.89 -11.43)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
