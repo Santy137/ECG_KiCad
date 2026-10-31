@@ -1213,7 +1213,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ECG_4810_Footprints:INA126P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1572,6 +1572,12 @@
 		(uuid "36506d1e-dcf1-4d04-893c-3e59ad7da9f4")
 	)
 	(junction
+		(at 36.83 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc97113-3182-4aee-9d6e-9eee028fe36f")
+	)
+	(junction
 		(at 271.78 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1600,12 +1606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9723db5e-e969-486a-8106-e2cf4996f87a")
-	)
-	(junction
-		(at 36.83 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98dcc02b-6f6b-4f61-902d-f8622ef46955")
 	)
 	(junction
 		(at 199.39 66.04)
@@ -1644,16 +1644,16 @@
 		(uuid "d1e60323-1e73-44cc-a15b-9ef68ddb7141")
 	)
 	(junction
+		(at 55.88 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7da3be1-ffa1-495b-b721-c926bc576917")
+	)
+	(junction
 		(at 199.39 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddc39b03-2957-497c-b6e6-889033f57389")
-	)
-	(junction
-		(at 55.88 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eed310cf-cbdf-4057-9043-b408d777d692")
 	)
 	(wire
 		(pts
@@ -1787,6 +1787,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 160.02) (xy 121.92 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c611028-25f7-4434-a6f9-21a10ddd165b")
+	)
+	(wire
+		(pts
 			(xy 243.84 111.76) (xy 243.84 104.14)
 		)
 		(stroke
@@ -1807,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 66.04) (xy 55.88 66.04)
+			(xy 53.34 66.04) (xy 55.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1954,6 +1964,16 @@
 			(type default)
 		)
 		(uuid "6246f852-4cc6-43ba-b3af-6246224313a3")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 36.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6274fde0-56bf-4968-9c64-dc725842395a")
 	)
 	(wire
 		(pts
@@ -2397,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 68.58) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e360c0-bb58-4f4a-b14e-d5a36dae1d7d")
+	)
+	(wire
+		(pts
 			(xy 119.38 73.66) (xy 138.43 73.66)
 		)
 		(stroke
@@ -2477,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 71.12) (xy 36.83 68.58)
+			(xy 30.48 71.12) (xy 30.48 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2494,46 +2524,6 @@
 			(type default)
 		)
 		(uuid "feb3a537-a6f7-452c-8de0-1182817480c3")
-	)
-	(label "Notch Filter"
-		(at 228.6 46.99 0)
-		(effects
-			(font
-				(size 4.064 4.064)
-			)
-			(justify left bottom)
-		)
-		(uuid "12a1be18-e3f1-4135-a8c6-99dba59c0024")
-	)
-	(label "Bandpass Filter"
-		(at 153.67 48.26 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "1326af2f-fa4a-432f-8ac2-9d6f34b7bfac")
-	)
-	(label "Differential Amplifer"
-		(at 85.09 46.99 0)
-		(effects
-			(font
-				(size 3.429 3.429)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4d5229b-e0f1-4e52-9ef9-b965443ea486")
-	)
-	(label "Pre-Amp + Highpass"
-		(at 19.05 46.99 0)
-		(effects
-			(font
-				(size 3.302 3.302)
-			)
-			(justify left bottom)
-		)
-		(uuid "f791b874-5b3c-48fa-a4e5-f865a76f3e97")
 	)
 	(global_label "VDD"
 		(shape input)
@@ -2873,7 +2863,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 121.92 161.29 90)
+		(at 121.92 160.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2883,7 +2873,7 @@
 		)
 		(uuid "eb9eeb78-f57f-4655-9df9-94f4902b5853")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 154.6762 90)
+			(at 121.92 153.4062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +3115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a95c935-b012-4ee2-b59e-049db2c5ab4b")
-		(property "Reference" "Cn"
+		(property "Reference" "Cn1"
 			(at 217.17 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,7 +3178,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Cn")
+					(reference "Cn1")
 					(unit 1)
 				)
 			)
@@ -3311,6 +3301,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 171.45 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3907f94c-2731-446b-90dd-b16a108ce220")
+		(property "Reference" "#PWR04"
+			(at 171.45 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70f4c3d5-1c79-4f05-a806-6f927182c483")
+		)
+		(instances
+			(project "Ecg_Amp_Project_Schematic"
+				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 271.78 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -3399,7 +3467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dd6e4e4-2944-4ea5-937e-e261894d3be8")
-		(property "Reference" "Rin"
+		(property "Reference" "Rin3"
 			(at 146.05 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3530,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Rin")
+					(reference "Rin3")
 					(unit 1)
 				)
 			)
@@ -3480,7 +3548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4084cf1e-0665-4552-84bf-f9fe1509f41a")
-		(property "Reference" "Cf"
+		(property "Reference" "Cf1"
 			(at 182.88 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3611,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Cf")
+					(reference "Cf1")
 					(unit 1)
 				)
 			)
@@ -3561,7 +3629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d9efac-82e8-4888-ad07-1ee323b05b84")
-		(property "Reference" "Rf"
+		(property "Reference" "Rf1"
 			(at 45.72 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +3692,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Rf")
+					(reference "Rf1")
 					(unit 1)
 				)
 			)
@@ -3960,7 +4028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4957082f-99ea-40fd-9545-b4a0dc437939")
-		(property "Reference" "Cn"
+		(property "Reference" "Cn2"
 			(at 243.84 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4023,7 +4091,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Cn")
+					(reference "Cn2")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c7825d1-823e-4ddd-ad9d-037e6a3ccde7")
-		(property "Reference" "Rin"
+		(property "Reference" "Rin1"
 			(at 24.13 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,123 +4172,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Rin")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL084")
-		(at 264.16 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "528410f4-2059-4516-b401-24682d33b444")
-		(property "Reference" "U2"
-			(at 264.16 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL084"
-			(at 264.16 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 265.43 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 264.16 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "3b483d87-003e-4dc3-8529-d006b0614f2e")
-		)
-		(pin "1"
-			(uuid "04ca5377-8f57-4669-9fff-5e632509c969")
-		)
-		(pin "11"
-			(uuid "b7a17c32-efc6-4cdf-8402-d82cd9497ce7")
-		)
-		(pin "8"
-			(uuid "80e08df7-2546-454a-b2b1-693980e7609c")
-		)
-		(pin "13"
-			(uuid "44570f7a-fc33-477a-8ce5-758e4802d6e4")
-		)
-		(pin "14"
-			(uuid "2b7e3897-59a8-41cd-a31d-19569a59c7fc")
-		)
-		(pin "10"
-			(uuid "7bed732f-d9e1-4bdc-88aa-a64b7b49b977")
-		)
-		(pin "12"
-			(uuid "d47f2936-43e4-4056-8947-7efed4812ed0")
-		)
-		(pin "3"
-			(uuid "778c64d3-9945-4087-84eb-70fcc9c3a496")
-		)
-		(pin "9"
-			(uuid "cc3f16a6-8b21-4319-ab15-1bb252d52d69")
-		)
-		(pin "5"
-			(uuid "11ea88fc-edf1-450e-a3a2-262f1d65b147")
-		)
-		(pin "7"
-			(uuid "01292a49-cc52-4d6d-a82e-41894c5c0a5b")
-		)
-		(pin "2"
-			(uuid "2d1dff08-66ff-4f73-ac59-ea11f6591b4f")
-		)
-		(pin "6"
-			(uuid "c97361b6-4fdb-4468-8ba0-cefaf52f559a")
-		)
-		(instances
-			(project "Ecg_Amp_Project_Schematic"
-				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "U2")
+					(reference "Rin1")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53fe8028-8745-4731-9520-5e083fe8982c")
-		(property "Reference" "2Cn"
+		(property "Reference" "2Cn1"
 			(at 233.934 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4302,7 +4254,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "2Cn")
+					(reference "2Cn1")
 					(unit 1)
 				)
 			)
@@ -4320,7 +4272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ef2ad7-accb-4a2d-9bd4-bab25c469930")
-		(property "Reference" "Rn"
+		(property "Reference" "Rn1"
 			(at 223.52 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4337,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Rn")
+					(reference "Rn1")
 					(unit 1)
 				)
 			)
@@ -4518,7 +4470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68967235-32c3-4c9a-95be-71672f60f6dd")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin3"
 			(at 153.67 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4533,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Cin")
+					(reference "Cin3")
 					(unit 1)
 				)
 			)
@@ -4990,7 +4942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74e9ee17-0e66-4909-993b-43a3f4ddc217")
-		(property "Reference" "Rf"
+		(property "Reference" "Rf2"
 			(at 45.72 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5053,7 +5005,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Rf")
+					(reference "Rf2")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cbc3c8-0807-4726-8d4a-bcff50e8ec8d")
-		(property "Reference" "2Rn"
+		(property "Reference" "2Rn2"
 			(at 242.57 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +5169,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "2Rn")
+					(reference "2Rn2")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a176f771-a482-4772-a2c1-bc7bcc88d5f0")
-		(property "Reference" "2Rn"
+		(property "Reference" "2Rn1"
 			(at 217.17 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5298,7 +5250,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "2Rn")
+					(reference "2Rn1")
 					(unit 1)
 				)
 			)
@@ -5316,7 +5268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ea31ef-c09e-4bd1-a7d7-11b5233b8a75")
-		(property "Reference" "Rin"
+		(property "Reference" "Rin2"
 			(at 25.4 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,7 +5331,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Rin")
+					(reference "Rin2")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ECG_4810_Footprints:INA126P"
 			(at 107.95 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5518,7 +5470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
 			(at 40.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5578,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae369b92-b722-49c1-94ba-6cc29ce1e2cd")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 33.02 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,8 +5593,125 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL084")
+		(at 264.16 76.2 0)
+		(mirror x)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af52c714-14fa-4194-820a-ed4c1b6a67ea")
+		(property "Reference" "U2"
+			(at 264.16 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL084"
+			(at 264.16 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 265.43 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 264.16 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "5ca9eba2-9da3-4d4b-bc93-94a9aff14ab8")
+		)
+		(pin "13"
+			(uuid "260fbd0b-f5a5-47f6-9d21-42ed8bfadcfd")
+		)
+		(pin "6"
+			(uuid "dd8ff3d4-6f20-45e7-93b5-b34ce0a3b959")
+		)
+		(pin "4"
+			(uuid "d04939dc-7747-40ca-963a-dfe3b7964297")
+		)
+		(pin "7"
+			(uuid "08bb9e78-f7e2-4065-ae8c-db51ae8125fe")
+		)
+		(pin "8"
+			(uuid "d68c602f-4e4c-42a7-8749-685038792839")
+		)
+		(pin "1"
+			(uuid "c3bd4a31-d301-4ac8-9e0d-90d017fc0a58")
+		)
+		(pin "2"
+			(uuid "b24695ad-0db1-458f-a160-b071625f2674")
+		)
+		(pin "3"
+			(uuid "c791349c-8bf2-41a2-84cb-9ecbc1b124ef")
+		)
+		(pin "5"
+			(uuid "0d90db1f-c99d-4436-ad8a-91d487985da6")
+		)
+		(pin "10"
+			(uuid "646a19b4-752f-407a-980d-e96925c1044f")
+		)
+		(pin "12"
+			(uuid "3290a774-b9cb-494b-bb35-569a89956eae")
+		)
+		(pin "14"
+			(uuid "b47f9e73-0d4f-4908-88ad-f16054e359d9")
+		)
+		(pin "11"
+			(uuid "3d885cec-d1ca-417d-9f0b-9142fbe8a28b")
+		)
+		(instances
+			(project "Ecg_Amp_Project_Schematic"
+				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -5659,7 +5728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6742dd7-826d-4275-8c75-bdc0d934b93f")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin2"
 			(at 33.02 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,85 +5791,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "Cin")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4103e1e-de23-4cf2-a540-b61d867a079f")
-		(property "Reference" "#PWR04"
-			(at 171.45 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Vref"
-			(at 171.45 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "522e64e4-dbbc-4eb8-9555-065cc90bd003")
-		)
-		(instances
-			(project "Ecg_Amp_Project_Schematic"
-				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "#PWR04")
+					(reference "Cin2")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c856bda2-5453-49a2-8c2a-a2252a09258c")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 181.61 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5880,7 +5871,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5888,7 +5879,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
-		(at 44.45 66.04 0)
+		(at 45.72 66.04 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5900,7 +5891,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8953d87-dc01-4448-a0bb-55a9fa17220b")
 		(property "Reference" "U1"
-			(at 44.45 55.88 0)
+			(at 45.72 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5910,7 +5901,7 @@
 			)
 		)
 		(property "Value" "TL084"
-			(at 44.45 58.42 0)
+			(at 45.72 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5920,7 +5911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 68.58 0)
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,7 +5922,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 45.72 71.12 0)
+			(at 46.99 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5942,7 +5933,7 @@
 			)
 		)
 		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 44.45 66.04 0)
+			(at 45.72 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3db1224-596d-4cc9-9c21-7f1719c13cec")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 92.71 81.2799 0)
 			(hide yes)
 			(show_name no)
@@ -6079,7 +6070,7 @@
 		(instances
 			(project "Ecg_Amp_Project_Schematic"
 				(path "/5d5cf354-fc92-47f5-a076-b39f5802c136"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6087,7 +6078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 71.12 0)
+		(at 30.48 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6098,7 +6089,7 @@
 		(fields_autoplaced yes)
 		(uuid "f85d785f-313e-4013-9951-f893e798c500")
 		(property "Reference" "#PWR02"
-			(at 36.83 77.47 0)
+			(at 30.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6109,7 +6100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 76.2 0)
+			(at 30.48 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6119,7 +6110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 71.12 0)
+			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 71.12 0)
+			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6141,7 +6132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 71.12 0)
+			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
