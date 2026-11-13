@@ -1974,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 73.66) (xy 276.86 73.66)
+			(xy 271.78 73.66) (xy 274.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3014,7 @@
 	)
 	(global_label "Vout"
 		(shape input)
-		(at 276.86 73.66 0)
+		(at 274.32 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3024,7 +3024,7 @@
 		)
 		(uuid "50efd34a-9949-4cc9-99e3-7a3322cf6e53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.9575 73.66 0)
+			(at 281.4175 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
