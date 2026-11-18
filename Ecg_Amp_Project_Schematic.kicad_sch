@@ -413,6 +413,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1947,28 +2102,16 @@
 		(uuid "2ae94725-3143-4796-a6cc-dc48c221e606")
 	)
 	(junction
-		(at 233.68 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36506d1e-dcf1-4d04-893c-3e59ad7da9f4")
-	)
-	(junction
 		(at 36.83 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bc97113-3182-4aee-9d6e-9eee028fe36f")
 	)
 	(junction
-		(at 189.23 111.76)
+		(at 213.36 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4409ce04-4591-4d6b-b615-375c63426c88")
-	)
-	(junction
-		(at 189.23 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a703f9a-4d6f-4db6-9dc1-cf4955014b33")
+		(uuid "45ea2714-a4ce-4963-a915-a07cf7c71536")
 	)
 	(junction
 		(at 250.19 55.88)
@@ -1983,6 +2126,12 @@
 		(uuid "5866458e-aa07-4f1f-9b98-e551fc6f80c1")
 	)
 	(junction
+		(at 189.23 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da4cb8f-b5c5-4054-b01d-b957b87ef3a1")
+	)
+	(junction
 		(at 233.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1993,12 +2142,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6647af94-b261-4192-9b33-5c2f5a83cab5")
-	)
-	(junction
-		(at 189.23 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71699655-5de8-4248-bfc1-64abedb115b3")
 	)
 	(junction
 		(at 58.42 107.95)
@@ -2031,12 +2174,6 @@
 		(uuid "93b5896e-7dcf-45c1-94a6-57b9d364f91e")
 	)
 	(junction
-		(at 205.74 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9723db5e-e969-486a-8106-e2cf4996f87a")
-	)
-	(junction
 		(at 271.78 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2053,6 +2190,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5674fb0-b229-4134-bf6c-296b9fa55f72")
+	)
+	(junction
+		(at 189.23 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b56a0b0f-4418-4b7a-b41e-c7b3dca38238")
+	)
+	(junction
+		(at 233.68 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd78358-7837-499d-bbab-3e15d2456ac2")
 	)
 	(junction
 		(at 170.18 78.74)
@@ -2073,20 +2222,16 @@
 		(uuid "ddc39b03-2957-497c-b6e6-889033f57389")
 	)
 	(junction
+		(at 189.23 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa9d4866-a506-4498-86e7-633a0c94f623")
+	)
+	(junction
 		(at 128.27 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffcd2d2e-8d64-4639-bf3b-bf2ad7f86c3c")
-	)
-	(wire
-		(pts
-			(xy 233.68 93.98) (xy 233.68 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "027b3177-6d3b-48d2-90e3-c1bb4f75cf79")
 	)
 	(wire
 		(pts
@@ -2097,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "05e0b610-d08c-4fea-9b6f-093a6ea0a59e")
+	)
+	(wire
+		(pts
+			(xy 233.68 93.98) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0844adb0-da1a-4809-8b05-ee5ff3175853")
 	)
 	(wire
 		(pts
@@ -2280,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 111.76) (xy 205.74 104.14)
+			(xy 213.36 111.76) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 110.49) (xy 198.12 110.49)
+			(xy 189.23 110.49) (xy 201.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2350,16 +2505,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 101.6) (xy 224.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e10d30-58a0-4884-9a70-12d382686c20")
-	)
-	(wire
-		(pts
 			(xy 31.75 163.83) (xy 31.75 166.37)
 		)
 		(stroke
@@ -2380,13 +2525,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 106.68) (xy 233.68 109.22)
+			(xy 213.36 105.41) (xy 215.9 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c310d0f-dca2-493b-bcc7-22ac7c223732")
+		(uuid "4f8f4efa-51ce-48a1-8478-1f06fa34207d")
 	)
 	(wire
 		(pts
@@ -2450,17 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 104.14) (xy 205.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af42716-ba65-4dcd-9ff5-7d2e2a8ea04e")
-	)
-	(wire
-		(pts
-			(xy 205.74 97.79) (xy 227.33 97.79)
+			(xy 213.36 97.79) (xy 232.41 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2480,17 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 104.14) (xy 209.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4db24b-16ce-48ab-a338-c4b9cb303a9a")
-	)
-	(wire
-		(pts
-			(xy 233.68 106.68) (xy 224.79 106.68)
+			(xy 233.68 107.95) (xy 231.14 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 227.33 101.6)
+			(xy 232.41 97.79) (xy 232.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2730,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 111.76) (xy 205.74 111.76)
+			(xy 189.23 111.76) (xy 213.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2820,6 +2945,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 107.95) (xy 233.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65d7df4-fa4d-435e-9859-d4b96bf03bbd")
+	)
+	(wire
+		(pts
 			(xy 49.53 95.25) (xy 58.42 95.25)
 		)
 		(stroke
@@ -2830,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 198.12 102.87)
+			(xy 189.23 102.87) (xy 201.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2957,6 +3092,16 @@
 			(type default)
 		)
 		(uuid "d35a7036-1c6a-47da-b812-060ac1e7525c")
+	)
+	(wire
+		(pts
+			(xy 232.41 102.87) (xy 231.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ba344f-df8d-49e3-9326-dcbe74252b06")
 	)
 	(wire
 		(pts
@@ -3177,6 +3322,16 @@
 			(type default)
 		)
 		(uuid "f900bc9d-3207-400d-9e92-e197f2ae4ad4")
+	)
+	(wire
+		(pts
+			(xy 213.36 97.79) (xy 213.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f986aacf-08c1-4af4-ad41-a2525aa36df9")
 	)
 	(wire
 		(pts
@@ -3584,7 +3739,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
-		(at 217.17 104.14 180)
+		(at 223.52 105.41 180)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3592,10 +3747,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02c9ce21-dcc0-4674-a130-79f2759338c1")
 		(property "Reference" "U3"
-			(at 217.17 93.98 0)
+			(at 221.234 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3605,7 +3759,7 @@
 			)
 		)
 		(property "Value" "TL084"
-			(at 217.17 96.52 0)
+			(at 221.234 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3615,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 218.44 106.68 0)
+			(at 224.79 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 215.9 109.22 0)
+			(at 222.25 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3791,7 @@
 			)
 		)
 		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 217.17 104.14 0)
+			(at 223.52 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3777,6 +3931,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 179.07 91.44 90)
 		(unit 1)
@@ -3786,10 +3941,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a95c935-b012-4ee2-b59e-049db2c5ab4b")
 		(property "Reference" "Cn1"
-			(at 179.07 86.36 90)
+			(at 179.07 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,9 +3952,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1 microF"
 			(at 179.07 86.36 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4894,10 +5047,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4957082f-99ea-40fd-9545-b4a0dc437939")
 		(property "Reference" "Cn2"
-			(at 205.74 86.36 90)
+			(at 205.74 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4906,9 +5058,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1 microF"
 			(at 205.74 86.36 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5056,7 +5207,7 @@
 		(dnp no)
 		(uuid "53fe8028-8745-4731-9520-5e083fe8982c")
 		(property "Reference" "Cn3"
-			(at 189.484 106.68 0)
+			(at 190.754 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5066,9 +5217,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 190.5 107.9499 0)
-			(hide yes)
+		(property "Value" "1 microF"
+			(at 189.484 107.6959 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6070,7 +6220,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 106.68 0)
+		(at 201.93 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6080,7 +6230,7 @@
 		(dnp no)
 		(uuid "881deeb1-b797-4a24-bdba-51b79e6d0001")
 		(property "Reference" "Cn4"
-			(at 200.914 106.68 0)
+			(at 205.74 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6090,9 +6240,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 201.93 107.9499 0)
-			(hide yes)
+		(property "Value" "1 microF"
+			(at 204.47 107.4419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6103,7 +6252,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 199.0852 110.49 0)
+			(at 202.8952 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 106.68 0)
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6125,7 +6274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 198.12 106.68 0)
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
