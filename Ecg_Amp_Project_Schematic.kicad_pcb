@@ -475,7 +475,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "09cc59ca-37cc-4ed0-a713-d3c22678271e")
-		(at 174.65 91.5)
+		(at 109.982 71.628)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R1"
@@ -1494,7 +1494,7 @@
 			(uuid "4faf50df-6258-4e3d-bd49-e33f58896a9b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 112.78313 -16.041097 0)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "b02f177d-cb2a-493b-bd24-2aaa70225a71")
 			(effects
@@ -3231,7 +3231,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b11f06c4-a4d5-4153-8ac1-56f9d1f038cb")
-		(at 103.124 95.504 -90)
+		(at 106.68 93.218 -90)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "Rin1"
@@ -3422,7 +3422,7 @@
 	(footprint "ECG_4810_Footprints:INA126P"
 		(layer "F.Cu")
 		(uuid "b804cbf2-25b0-4054-9853-1c797fe57bff")
-		(at 113.792 82.296)
+		(at 115.316 84.836)
 		(property "Reference" "U2"
 			(at -5.08 -6.096 0)
 			(unlocked yes)
